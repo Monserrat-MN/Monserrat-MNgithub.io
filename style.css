@@ -1,11 +1,87 @@
-/*Agregar estilo al body*/
+<body {
+    margin:0;
+    padding:0;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
 
-body{
-     background-color: rgb(208, 198, 231);
-     color:rgb(122, 76, 230)
-    
 }
-/* Selectores de clase. Inician con un punto (.)*/
-.LISTA-DE-CANCIONES-ALBUM-PARIS-TEXAS {
-     color:rgb(124, 65, 218)
+
+
+a{
+    text-decoration: none;
+    cursor:pointer;
+
 }
+
+header{
+    width: 100%;
+    height:60px;
+}
+
+header nav{
+    display: flex;
+    justify-content:flex-end ;
+}
+
+<main
+
+element.style {
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+user agent stylesheet
+main {
+    display: block;
+}
+
+element.style {
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 4em;
+    margin-block-end: 4em;
+    margin-inline-start: 3px;
+    margin-inline-end: 3px;
+    padding-inline-start: 60px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+
+
+
+
